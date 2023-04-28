@@ -69,7 +69,6 @@ class ExtendedCity: City {
       self.name = name
       self.rating = rating%5 + 1
     }
-    
   }
   
   var locations: Set<Location>
